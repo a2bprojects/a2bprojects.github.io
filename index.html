@@ -30,10 +30,14 @@ function multiplication(){
 function division(){
 	peremennaja1=parseFloat(document.anketa.odin.value);
 	//alert(peremennaja1);
-	peremennaja2=parseFloat(document.anketa.dva.value);
+	peremennaja2=parseFloat(document.anketa.dva.value);	
+	if (peremennaja2 ==0)
+	{alert("На ноль делить нельзя, введите другое значение")
+	return;}
+	else {
 	rezultat=peremennaja1/peremennaja2;
-	document.anketa.otvet.value=rezultat;
-}
+	document.anketa.otvet.value=rezultat;}
+	}
 function pow(){
 	peremennaja1=parseFloat(document.anketa.odin.value);
 	//alert(peremennaja1);
