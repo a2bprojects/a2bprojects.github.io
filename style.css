@@ -1,4 +1,4 @@
-	.flyMenu{ width:99%;}
+	.flyMenu{ width:100%;}
 	.flyMenu div{background-color: rgba(0,0,0, 0.8);}
 	.flyMenu div {padding: color:#f8f9fa; cursor: pointer;}
 	.flyMenu div :hover{color:  rgba(0,0,0, 0.5);}
@@ -14,8 +14,7 @@
     .scale:hover {transform: scale(1.2); /* Увеличиваем масштаб */}
 	.bruh{text-align: center;}
 	.bg_wall{background-image: url('photos/bg_wall.jpg');}
-	.gifgift{position : absolute ;height: 130px;width: 600px;top: 250px;left: 460px;
-}
+	.dfg{text-align: center;}
 .gifg{position : absolute ;height: 130px;width: 400px;top: 1120px;left		: 560px;
 }
 .page-footer {background-color: rgba(52, 58, 64);}
